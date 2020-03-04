@@ -1,0 +1,63 @@
+.panel {
+  width: 600px;
+  margin: 50px;
+  text-align: center;
+}
+.card {
+  font: 16px/1.5 'Helvetica Neue', Helvetica, sans-serif;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 425px;
+  height: 270px;
+  text-align: left;
+  padding: 30px;
+  margin-bottom: 50px;
+  color:  white;
+  /* color: black; */
+  border-radius: 20px;
+  box-sizing: border-box;
+  /* background-color: #124164; */
+  /* background-image: url('https://image.ibb.co/bVnMrc/g3095.png'), linear-gradient(to right bottom, #fd696b, #fa616e, #f65871, #f15075, #ec4879); */
+  background-image: url(https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/world-map-18-black-background-sharon-cummings.jpg);
+}
+.cardLogo{
+  height: 80px;
+  position: absolute;
+  right: 5px;
+  bottom: 5px;
+}
+.cardChip{
+  height: 80px;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+.cardName{
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.cardNumber{
+  font-size: 30px;
+  padding: 90px 0 15px;
+  text-align: center;
+}
+.cardOwner{
+  text-align: left;
+  font-size: 25px;
+}
+.cardExpiryDate{
+  font-size: 18px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.creditForm{
+  display: flex;
+  flex-direction: column;
+  align-items:  center;
+  margin: 30px;
+  
+}
